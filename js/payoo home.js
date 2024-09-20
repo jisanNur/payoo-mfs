@@ -51,3 +51,34 @@ document.getElementById('btn-add-money')
         }
 
     })
+
+
+    // features function
+
+    // cash out show
+
+    document.getElementById('btn-show-cash-out')
+        .addEventListener('click', function(){
+
+            document.getElementById('cash-out-form').classList.remove('hidden')
+
+            document.getElementById('add-moeny-form').classList.add('hidden')
+
+        })
+
+
+    // Add Money show
+
+    document.getElementById('btn-show-add-money')
+    .addEventListener('click', function(){
+        
+        document.getElementById('add-moeny-form').classList.remove('hidden')
+
+        document.getElementById('cash-out-form').classList.add('hidden')
+
+
+    })
+
+
+    
+    
